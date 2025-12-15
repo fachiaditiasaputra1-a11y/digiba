@@ -1,0 +1,5 @@
+# Buat file .eslintignore di root
+echo "server/*" > .eslintignore
+echo "node_modules/*" >> .eslintignore  
+echo "dist/*" >> .eslintignore
+echo "*.config.js" >> .eslintignore
